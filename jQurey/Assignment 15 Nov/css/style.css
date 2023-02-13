@@ -1,0 +1,51 @@
+.item { width: 20%; } 
+.item { width: 33.333%; }  
+.item { width: 50%; }  
+
+#slider {
+    position: relative;   
+    background-color:  rgb(109, 109, 241);
+    height: 150px;
+    padding-bottom: 25px;
+}
+
+.content {
+    white-space: nowrap;  
+    overflow: hidden;     
+    margin: 0 5%;      
+    height: 130px;
+    background-color: rgb(109, 109, 241);    
+    text-align: center;
+}
+
+.item {
+    display: inline-block;  
+    width: 20%;             
+    position: relative;     
+    overflow: hidden;      
+    height: 140px;            
+    white-space: normal;
+    margin: 5px;
+    background-color: white;
+    margin-top:40px;
+    font-size: 80px;
+    color: rgb(109, 109, 241);
+}
+
+.controls a {
+    position: absolute;
+    top: 65px;
+    color: white;
+}
+
+.controls .pervious {
+    left: 10px;
+    height: 40px;
+}
+
+.controls .next {
+    right: 10px;
+}
+.fa{
+    font-size: 40px !important;
+}

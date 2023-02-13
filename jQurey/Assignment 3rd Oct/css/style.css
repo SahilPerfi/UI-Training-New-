@@ -1,0 +1,33 @@
+img {
+    width: 100%;
+    height: auto;
+}
+.row:after { 
+    content: ""; 
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left; 
+    padding: 15px;
+    width: 100%;
+} 
+button{
+    background-color: Black;
+    color: white;
+    margin-right: 10px;
+}
+button:hover {
+    background-color:red;
+    color: white;
+    border: none;
+}
+@media only screen and (min-width: 600px) {
+    .col-s-12 {width: 100%;}
+    #colosseum1, #china1, #tajMahal1{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .col {width: 20%;}
+}

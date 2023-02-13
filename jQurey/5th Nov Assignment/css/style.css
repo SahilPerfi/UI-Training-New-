@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+ul li {
+    padding: 8px;
+    background-color:white;
+    color:blue;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    font-size: 26px;
+    display: inline-block;
+    margin-top: 5px;
+    border: 1px solid blue;
+}
+ul li:hover{
+    color: chocolate;
+    border: 1px solid yellow;
+}
+nav{
+    background-color: rgb(206, 150, 161);
+    border: 1px solid green;
+}
+div{
+    text-align: center;
+    font-size: 40px;
+}
+.chocolate{
+    color: chocolate;
+}
+#poemTab{
+    margin-left: 5px;
+}
+section{
+    margin: 10px;
+}

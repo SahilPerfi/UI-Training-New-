@@ -1,0 +1,12 @@
+.control-label:after {
+    content: "*";
+    color: red;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
+  .not-allowed {
+    cursor: not-allowed;
+  }

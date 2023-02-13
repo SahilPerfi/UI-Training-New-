@@ -1,0 +1,38 @@
+/* table, th, td {
+    padding: 10px 50px;  
+}
+.table-heading th{ 
+    background-color: rgb(128, 141, 137);
+    color: black;
+}
+
+.down{
+    position: absolute;
+    top:37px;
+
+}
+.up{
+position: absolute;
+top:25px;
+cursor: pointer;
+
+}
+tr:nth-child(odd) {
+
+    background-color: rgb(223, 240, 228);
+
+} */
+table {
+    width: 50%;
+}
+
+th {
+    background: #f1f1f1;
+    font-weight: bold;
+    padding: 6px;
+}
+
+td {
+    background: #f9f9f9;
+    padding: 6px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+<link href="./css/style.css">
+</head>
+<body>
+    <p>Click the <strong>table headers</strong> to sort the table accordingly:</p>
+
+    <table id="bioTable" class="w3-table-all">
+    <thead>
+        <tr>
+        <th onclick="w3.sortHTML('#bioTable', '.item', 'td:nth-child(1)')">Facility Name</th>
+        <th>Phone #</th>
+        <th onclick="w3.sortHTML('#bioTable', '.item', 'td:nth-child(3)')">City</th>
+        <th>Specialty</th>
+        </tr>
+        <script src="./script/script.js"></script>
+    </thead>
+    </table>
+    
+</body>
+</html>
+

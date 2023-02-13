@@ -1,0 +1,65 @@
+/* #picture{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid #000000;
+} */
+#bagImage {
+  cursor: pointer;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  align-items: center;  
+}
+.modal-header{
+  background-color: black;
+}
+.zoomIn{
+  color: white;
+}
+.zoomOut{
+  color: white;
+  margin-left: 10px;
+}
+.zoomOut:hover{
+  color: white;
+}
+.zoomIn:hover{
+  color: white;
+}
+.close{
+  color: white;
+  opacity: 1;
+}
+.close:hover{
+  color: white;
+  opacity: 1;
+}
+a{
+  color: none;
+}
+#bagImageZoom{
+  height: 400px;
+  width: 400px;
+  align-items: center !important;
+  /* padding: 150px 0 0 130px; */
+  overflow: visible;
+}
+button{
+  position: relative;
+}
+.image{
+  position: relative;
+  min-height: 430px;
+}
+.modal-body{
+  overflow-x: auto;
+  overflow-y: auto;
+}
+.center {
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 50%;
+}

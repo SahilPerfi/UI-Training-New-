@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(202, 216, 206);
+}
+
+th {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.up, .up1, .up2, .up3, .up4, .up5 {
+    position: absolute;
+    top: 9px;
+    cursor: pointer;
+    float: right;
+}
+.down, .down1, .down2, .down3, .down4, .down5 {
+    position: absolute;
+    top: 24px;
+    cursor: pointer;
+    float: right;
+}
