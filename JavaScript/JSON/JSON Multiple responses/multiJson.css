@@ -1,0 +1,13 @@
+.Card{
+    background-color: gainsboro;
+    box-shadow: 5px 5px lightslategrey;
+    padding: 10px;
+}
+.detail{
+    padding:0 10px;    
+}
+.column{
+    float: left;
+    width: 15%;
+    padding: 10px 10px;
+}
