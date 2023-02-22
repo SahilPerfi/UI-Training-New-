@@ -1,6 +1,7 @@
 .Card{
     border: 2px solid;
     width: fit-content;
+    background-color: palegoldenrod;
 }
 .detail{
     padding:10px;    
