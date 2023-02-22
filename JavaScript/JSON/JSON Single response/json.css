@@ -1,0 +1,7 @@
+.Card{
+    border: 2px solid;
+    width: fit-content;
+}
+.detail{
+    padding:10px;    
+}
