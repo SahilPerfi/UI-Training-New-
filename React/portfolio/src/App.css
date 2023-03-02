@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /* background-image: url("./images/bg_one.jpg"); */
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+  background-image: linear-gradient(to bottom right, black, grey)
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.portfolio_name{
+  font-weight: 600;
+  font-size: xxx-large;
+}
+/* .portfolio_designation{
+
+} */
+.portfolio_pic{
+  height: 160px;
+  border-radius: 72%;
+}
+.portfolio{
+  /* background-image: url(./images/bg4.jpg);
+  background-image: url(./images/bg3.jpg); */
+  background-image: url(./images/bg2.jpg);
+
+  /* background-image: linear-gradient(to bottom right, black, grey); */
+  height: 100vh;
+  display: flex;
+  /* background-image: url("/w3images/photographer.jpg"); */
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav{
+  /* display: flex; */
+  gap: 30px;
+  width: 15%;
+  justify-content: center;
+  border-right: 2px solid red;
+}
+
+.nav li{
+  margin-bottom: 30px;
+  margin: 50px 30px;
+  text-decoration: none;
+  list-style: none;
+  border: 2px solid red;
+  height: 30px;
+  width: 70%;
+  background-color: red;
+  text-align: center;
+}
+
+.nav li a{
+  text-decoration: none;
+  color: white;
+}
