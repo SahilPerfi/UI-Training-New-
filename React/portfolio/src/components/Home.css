@@ -1,0 +1,10 @@
+.homePage{
+    text-align: center;
+    flex: 1;
+}
+.mainPage{
+    margin: auto;
+    border: 2px solid red;
+    width: 70%;
+    border-radius: 10px;
+}
