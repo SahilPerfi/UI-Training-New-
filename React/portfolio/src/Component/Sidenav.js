@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Sidenav.css';
 import About from './About';
-import Personal from './Personal';
 import Skills from './Skills';
 import Project from './Project';
 import Education from './Education';
@@ -11,7 +10,6 @@ import Main from './Main';
 
 const Sidenav = () => {
   const [main, setMain] = useState(true)
-  const [personal , SetPersonal] = useState(false);
   const [about , SetAbout] = useState(false);
   const [skills , Setskills] =useState(false);
   const [project , SetProject] = useState(false);
@@ -23,7 +21,6 @@ const Sidenav = () => {
     setMain(true)
     SetAbout(false);
     Setskills(false);
-    SetPersonal(false);
     SetProject(false);
     SetEducation(false);
     SetAchievement(false);
@@ -32,7 +29,6 @@ const Sidenav = () => {
   const aboutpage = () =>{
     SetAbout(true);
     Setskills(false);
-    SetPersonal(false);
     SetProject(false);
     SetEducation(false);
     SetAchievement(false);
@@ -43,7 +39,6 @@ const Sidenav = () => {
   const skillpage = () =>{
     Setskills(true);
     SetAbout(false);
-    SetPersonal(false);
     SetProject(false);
     SetEducation(false);
     SetAchievement(false);
@@ -55,7 +50,6 @@ const Sidenav = () => {
     SetProject(true);
     Setskills(false);
     SetAbout(false);
-    SetPersonal(false);
     SetEducation(false);
     SetAchievement(false);
     SetProfilevalue(false);
@@ -67,7 +61,6 @@ const Sidenav = () => {
     SetProject(false);
     Setskills(false);
     SetAbout(false);
-    SetPersonal(false);
     SetAchievement(false);
     SetProfilevalue(false);
     setMain(false);
@@ -79,7 +72,6 @@ const Sidenav = () => {
     SetProject(false);
     Setskills(false);
     SetAbout(false);
-    SetPersonal(false);
     SetProfilevalue(false);
     setMain(false);
   }
@@ -91,7 +83,6 @@ const Sidenav = () => {
     SetProject(false);
     Setskills(false);
     SetAbout(false);
-    SetPersonal(true);
     setMain(false);
   }
   return (
@@ -108,7 +99,6 @@ const Sidenav = () => {
         </ul>
       </div>
       <Main mainvalue={main} />
-      <Personal personalValue={personal} />
       <About  aboutValue={about} />
       <Skills skillvalue={skills}/>
       <Project projectvalue={project} />
