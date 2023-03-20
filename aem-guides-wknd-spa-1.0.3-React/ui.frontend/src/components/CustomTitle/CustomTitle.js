@@ -15,7 +15,7 @@ const CustomTitle = (props) => {
   return (
     <>
       <div className='customtitle_heading'>{props.textTitle}</div>
-      <div className='customtitle'>
+      <div className='customtitle'> 
         <div className='customtitle_text'>{props.text}</div>
         <img src={props.fileReference} alt="Image" />
       </div>
