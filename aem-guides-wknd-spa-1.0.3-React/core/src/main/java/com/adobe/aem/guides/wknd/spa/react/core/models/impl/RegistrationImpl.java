@@ -15,6 +15,7 @@ public class RegistrationImpl implements Registration {
 
     static final String RESOURCE_TYPE = "wknd-spa-react/components/registration";
 
+
     @ValueMapValue private String firstName;
     @ValueMapValue private String lastName;
     @ValueMapValue private String DOB;
@@ -36,6 +37,14 @@ public class RegistrationImpl implements Registration {
     public String getFeedback(){
         return feedback;
     }
+    @Override
+    public String getImage(){
+        return image;    
+    } 
+    
+    @ValueMapValue(name = "fileReference")
+    private String image;
+
     @Override
     public String getExportedType(){
         return RESOURCE_TYPE;

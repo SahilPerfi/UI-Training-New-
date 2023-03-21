@@ -6,4 +6,5 @@ public interface Registration extends ComponentExporter {
     public String getLastName();
     public String getDateOfBirth();
     public String getFeedback();
+    public String getImage();
 }
