@@ -1,0 +1,27 @@
+.fmc-Highlight__Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 3px 3px 10px 0 black;
+          box-shadow: 3px 3px 10px 0 black;
+}
+
+.fmc-Highlight__Container img {
+  margin-top: 0;
+}
+
+.fmc-Highlight__image {
+  max-height: 285px;
+  width: 100%;
+  border-radius: 3px 0 0 3px;
+  margin-right: 20px;
+}
+
+.fmc-primary {
+  margin-right: 20px;
+}
+
+.fmc-primary__description-text {
+  line-height: 24px !important;
+}
+/*# sourceMappingURL=TodaysHighlight.css.map */
