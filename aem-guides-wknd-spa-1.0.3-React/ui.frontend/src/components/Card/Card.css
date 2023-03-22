@@ -1,0 +1,45 @@
+.Card {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.Card__image {
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.Card__content {
+  width: 100%;
+  float: left;
+  padding-top: 0.5em;
+}
+
+.Card__title {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.Card__lastmod {
+  font-style: italic;
+  font-size: 14px;
+  padding-right: 1em;
+  padding-top: 1em;
+  float: right;
+}
+
+.Card__action-container {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  float: left;
+}
+
+.Card__action-link {
+  background-color: #FFEA00;
+  text-transform: uppercase;
+  color: #202020;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  float: left;
+}
+/*# sourceMappingURL=Card.css.map */

@@ -1,0 +1,625 @@
+.fmc-Highlight{
+    &__Container{
+        display: flex;
+        box-shadow: 3px 3px 10px 0 black;
+        img{
+            margin-top: 0;
+        }
+    }
+    &__image{
+        max-height: 285px;
+        width: 100%;
+        border-radius: 3px 0 0 3px;
+        // overflow: hidden;
+        margin-right: 20px;
+    }
+}
+.fmc-primary{
+    margin-right: 20px;
+    &__description-text{
+        line-height: 24px !important;
+    }
+}
+
+// .VisiblityHidden{
+//     visibility: hidden;
+//     padding-bottom: 24px;
+// }
+
+// .fmc-Highlight {
+//     // font-family: $fds-font--antenna;
+
+//     &__Container {
+//         display: flex;
+//         min-height: 285px;
+//         max-height: 500px;
+//         width: 100%;
+//         // box-shadow: 0 10px 10px 0 rgb(0 0 0 / 10%) !important;
+//         margin: 30px 0;
+//         border-radius: 3px;
+//         // background-color: $fds-color--white;
+//     }
+
+//     a{
+//         .fmc-Highlight__image {
+//             max-height: 285px;
+//             width: 100%;
+//             border-radius: 3px 0 0 3px;
+//             overflow: hidden;
+//         }
+//     }
+// }
+
+// .fmc-primary {
+//     padding: 16px 16px 0 32px;
+
+//     &__heading {
+//         font-size: 12px;
+//         text-transform: uppercase;
+//         margin: 0 0 13px;
+//         min-height: 16px;
+//         width: 100%;
+//         // color: $fds-color--gray3;
+//         // font-family: $fds-font--antenna;
+//         font-size: 12px;
+//         font-weight: bold;
+//         letter-spacing: 1px;
+//         line-height: 16px;
+//     }
+
+//     &__text-button {
+//         text-decoration: none;
+//         // color: $fds-color--primary;
+//         // font-family: $fds-font--antenna;
+//         font-size: 24px !important;
+//         letter-spacing: 1px;
+//         line-height: 28px !important;
+//     }
+
+//     &__description {
+//         margin: 10px 0 16px 0;
+//     }
+
+//     &__description-text {
+//         min-height: 72px;
+//         // color: $fds-color--gray3;
+//         // font-family: $fds-font--antenna;
+//         font-size: 16px;
+//         letter-spacing: 1px;
+//         line-height: 24px;
+//     }
+
+//     &__archive {
+//         max-width: 100%;
+//     }
+
+//     &__archive-button {
+//         min-height: 24px;
+//         width: 100%;
+//         // color: $fds-color--primary;
+//         // font-family: $fds-font--antenna;
+//         font-size: 18px !important;
+//         letter-spacing: 1px;
+//         line-height: 24px !important;
+//         display: contents;
+//     }
+
+//     &__divider {
+//         height: 1px;
+//         opacity: 0.2;
+//         transform: scaleX(-1);
+//         // background-color: $fds-color--black;
+//         margin: 16px 0;
+//     }
+// }
+
+// .chevron-right-icon {
+//     // @extend %fds-icons;
+//     // content: $fds-font--ford-icons__chevron-right;
+//     padding-left: 19.25px;
+//     font-size: 14px;
+//     font-weight: bold;
+// }
+
+// .fmc-chevron-filled-right {
+//     padding-left: 16px;
+// }
+
+// .fmc-secondary {
+//     display: flex;
+//     margin: 0;
+//     width: 100%;
+//     // color: $fds-color--primary;
+//     position: relative;
+//     div {
+//         font-size: 16px;
+//     }
+//     &__Social {
+//         height: 24px;
+//         width: 88.31px;
+//         // color: $fds-color--primary;
+//         // font-family: $fds-font--antenna;
+//         font-size: 16px;
+//         letter-spacing: 1px;
+//         line-height: 24px;
+//         padding: 0 20px;
+
+//         &__like{
+//             position: relative;
+
+//         }
+//         &__bookmark {
+//             flex: 1;
+//             position: relative;
+
+//         }
+
+//         &__share {
+//             cursor: pointer;
+//             padding-right: 0 !important;
+//             margin: 0 !important;
+//             height: 0;
+//         }
+
+//         &__link {
+//             // font-family: $fds-font--antenna;
+//             height: 24px;
+//             width: 86.34px;
+//             // color: $fds-color--primary;
+//             font-size: 16px;
+//             letter-spacing: 1px;
+//             line-height: 24px;
+//             padding: 0 0 0 8px;
+//         }
+//     }
+
+//     .fmc-primary__divider {
+//         height: 1px;
+//         opacity: 0.2;
+//         transform: scaleX(-1);
+//         background-color: #000000;
+//     }
+//     &__container{
+//         position: absolute;
+//         left: auto;
+//         right: -18px;
+//         top: 10px;
+//         box-sizing: border-box;
+//         min-height: 200px;
+//         width: 320px;
+//         border: 1px solid #6E6E6E;
+//         border-radius: 3px;
+//         background-color: #FFFFFF;
+//         // box-shadow: 0 20px 20px 0 rgba(0,0,0,0.1), 0 10px 10px 0 rgba(0,0,0,0.1);
+//         z-index: 1;
+//         padding: 0 !important;
+//         &::before{
+//             content: "";
+//             position: absolute;
+//             bottom: 97%;
+//             right: 17px;
+//             margin-left: -5px;
+//             border: 1px solid #6e6e6e;
+//             padding: 9px;
+//             background-color: #ffffff;
+//             border-bottom: none;
+//             border-right: none;
+//             transform: rotate(45deg);
+//         }
+//         div{
+//             padding: 0 !important;
+//         }
+//     }
+//     &__heading{
+//         display: flex;
+//         margin: 16px;
+//         &-text{
+//             height: 24px;
+//             width: 90%;
+//             color: #00095B;
+//             font-family: "FordAntenna";
+//             font-size: 16px;
+//             font-weight: 500;
+//             letter-spacing: 1px;
+//             line-height: 24px;
+//             text-align: left;
+//         }
+//         &-close{
+//             color: #00095B;
+//             font-size: 22px;
+//             text-align: right;
+//             width: 100%;
+//             font-weight: 100;
+//             cursor: pointer;
+//         }
+//     }
+//     &__share{
+//         color: #00095B;
+//         font-family: "FordAntenna";
+//         font-size: 16px;
+//         letter-spacing: 1px;
+//         line-height: 24px;
+//         margin: 0 16px;
+//         cursor: pointer;
+//         &-icon{
+//             font-size: 20px;
+//             margin-right: 10px;
+//             width: 20px;
+//             height: 20px;
+//             img{
+//                 height: 20px;
+//                 width: 20px;
+//                 color: #00095B;
+//             }
+//         }
+//         &-facebook{
+//             color: #00095B;
+//             font-family: "FordAntenna";
+//             font-size: 16px;
+//             letter-spacing: 1px;
+//             line-height: 24px;
+//             margin-bottom: 16px;
+//             display: flex;
+//             .icon-facebook-brands{
+//                 color: #1877F2;
+//             }
+//         }
+//         &-linkedIn{
+//             margin-bottom: 16px;
+//             display: flex;
+//             .icon-linkedin-brands{
+//                 color:  #0A66C2;
+//             }
+//         }
+//         &-twitter{
+//             margin-bottom: 16px;
+//             display: flex;
+//             .icon-twitter-brands{
+//             color: #1D9CF0;
+//             }
+//         }
+//         &-email{
+//             margin-bottom: 16px;
+//             display: flex;
+//         }
+//     }
+//     &__copy{
+//         margin: 16px;
+//         &-text{
+//             height: 48px;
+//             width: 177px;
+//             border-radius: 3px;
+//             background-color: #F2F2F2;
+//             color: #4D4D4D;
+//             font-family: "FordAntenna";
+//             font-size: 16px;
+//             letter-spacing: 1px;
+//             line-height: 24px;
+//             border: none;
+//         }
+//         &-copyButton{
+//             height: 40px;
+//             width: 104px;
+//             border-radius: 20px;
+//             background-color: #00095B;
+//             color: #FFFFFF;
+//             // font-family: $fds-font--antenna;
+//             font-stretch: condensed;
+//             font-size: 18px;
+//             letter-spacing: 1px;
+//             line-height: 24px;
+//             text-align: center;
+//             // box-shadow: 0 20px 20px 0 rgba(0,0,0,0.1), 0 10px 10px 0 rgba(0,0,0,0.1);
+
+//         }
+//     }
+//     .fmc-filledlike-icon{
+//         position: absolute;
+//         top: 2px;
+//         right: 0px;
+//         left: 0px;
+//     }
+    
+//     .fmc-filledbookmark-icon{
+//         position: absolute;
+//         top: 2px;
+//         right: 0px;
+//         left: 0px;
+//     }
+//     .showiconlike{
+//         display: flex;
+//     }
+//     .hideiconlike{
+//         // display: none;
+//         visibility: hidden;
+//     }
+//     .socialcount{
+//         position: absolute;
+//         margin-left: 10px;
+//         color: #4D4D4D;
+//         font-size: 16px;
+//         font-weight: 500;
+//         letter-spacing: 1px;
+//         line-height: 24px;
+//     }
+//     .commentcount{
+//         position: absolute;
+//         margin-left: 10px;
+//         color: #4D4D4D;
+//         font-size: 16px;
+//         font-weight: 500;
+//         letter-spacing: 1px;
+//         line-height: 24px;
+//     }
+// }
+
+// // @include media('<fds-sm') {
+// //     .fmc-Highlight {
+// //         &__Container {
+// //             padding: 0;
+// //             display: block;
+// //             min-height: 475px;
+// //             max-height: 700px;
+// //         }
+
+// //         a{
+// //             .fmc-Highlight__image {
+// //                 overflow: hidden;
+// //                 width: 100%;
+// //                 min-height: 160px;
+// //                 padding: 0;
+// //             }
+// //         }
+// //     }
+
+// //     .fmc-primary {
+// //         padding: 0 8px !important;
+
+// //         &__heading {
+// //             margin: 16px 0 8px;
+// //         }
+
+// //         &__description {
+// //             min-height: 120px;
+// //         }
+
+// //         &__description-text {
+// //             min-height: 120px;
+// //         }
+
+// //         &__archive-button {
+// //             height: 24px;
+// //             // color: $fds-color--primary;
+// //             // font-family: $fds-font--antenna;
+// //             font-size: 18px;
+// //             letter-spacing: 1px;
+// //             line-height: 24px;
+// //         }
+
+// //         &__divider {
+// //             margin: 16px 0;
+// //         }
+// //     }
+
+// //     .fmc-secondary {
+// //         & > div {
+// //             font-size: 16px;
+// //             margin: 0 35px 0 0;
+// //         }
+// //         &__container{
+// //             width: 250px;
+// //             margin: 0 !important;
+// //         }
+
+// //         &__Social {
+// //             padding: 0 20px 0 0;
+// //             line-height: 0;
+
+// //             &__comment {
+// //                 margin: 0 10px;
+// //             }
+
+// //             &__share {
+// //                 padding-left: 27px;
+// //                 margin-left: 55px;
+// //                 height: 0;
+// //             }
+
+// //             &__link {
+// //                 display: none;
+// //             }
+// //         }
+// //         &__copy-text{
+// //             width: 105px;
+// //             margin-right: 7px;
+// //         }
+// //     }
+// // }
+
+// // @include media('>=fds-sm', '<fds-md') {
+// //     .fmc-Highlight {
+// //         &__Container {
+// //             display: flex;
+// //             min-height: 285px;
+// //             max-height: 500px;
+// //         }
+
+// //         a{
+// //             .fmc-Highlight__image {
+// //                 max-height: 285px;
+// //                 width: 100%;
+// //                 overflow: hidden;
+// //                 border-radius: 3px 0 0 3px;
+// //             }
+// //         }
+// //     }
+
+// //     .fmc-primary {
+// //         min-height: 204px; //
+// //         padding: 16px 16px 0 24px;
+
+// //         &__description {
+// //             margin: 16px 0 16px;
+// //         }
+
+// //         &__description-text {
+// //             min-height: 72px;
+// //             // color: $fds-color--gray3;
+// //             overflow: hidden;
+// //             text-overflow: ellipsis;
+// //         }
+
+// //         &__archive {
+// //             margin-bottom: 32px;
+// //         }
+
+// //         &__divider {
+// //             margin: 0 0 14px 0;
+// //         }
+// //     }
+
+// //     .fmc-chevron-filled-right {
+// //         padding-left: 16px;
+// //     }
+
+// //     .fmc-secondary {
+// //         display: flex;
+// //         margin: 0;
+// //         // height: 27px;
+
+// //         & > div {
+// //             padding: 0 56px 0 0;
+// //             font-size: 16px;
+// //         }
+
+// //         &__Social {
+// //             &__link {
+// //                 display: none;
+// //             }
+
+// //             &__share {
+// //                 padding-left: 78px !important;
+// //                 height: 0;
+// //             }
+// //         }
+// //         &__container{
+// //             width: 225px;
+// //         }
+// //         &__copy{
+// //             &-text{
+// //                 width: 100px;
+// //             }
+// //             &-copyButton{
+// //                 width: 87px;
+// //             }
+// //         }
+// //     }
+// // }
+
+// // @media screen and (min-width: 1024px) and (max-width: 1135px) {
+// //     .fmc-Highlight {
+// //         &__Container {
+// //             width: auto;
+// //             margin-right: 24px;
+// //         }
+// //     }
+// // }
+
+// // @include media('>=fds-md', '<fds-lg') {
+// //     .fmc-Highlight {
+// //         &__Container {
+// //             min-height: 291px;
+// //             max-height: 500px;
+// //         }
+
+// //         &__image {
+// //             overflow: hidden;
+// //             max-height: 291px;
+// //             width: 100%;
+// //         }
+// //     }
+
+// //     .fmc-primary {
+// //         padding: 16px 16px 0 24px;
+
+// //         &__heading {
+// //             margin: 0 0 9px;
+// //         }
+
+// //         &__description-text {
+// //             min-height: 96px;
+// //             // color: $fds-color--gray3;
+// //         }
+
+// //         &__divider {
+// //             width: 100%;
+// //             margin: 16px 0 14px 0;
+// //         }
+// //     }
+
+// //     .fmc-secondary {
+// //         // height: 27px;
+
+// //         & > div {
+// //             padding: 0 43px 0 0;
+            
+// //         }
+
+// //         &__Social {
+// //             &__link {
+// //                 display: none;
+// //             }
+
+// //             &__share {
+// //                 padding-left: 107px !important;
+// //                 padding-right: 0 !important;
+// //                 height: 0;
+// //             }
+// //         }
+// //         &__container{
+// //             width: 225px;
+// //         }
+// //         &__copy{
+// //             &-text{
+// //                 width: 100px;
+// //             }
+// //             &-copyButton{
+// //                 width: 87px;
+// //             }
+// //         }
+// //     }
+// // }
+
+// // @include media('>=fds-lg') {
+// //     .fmc-Highlight {
+// //         &__Container {
+// //             min-height: 285px;
+// //             max-height: 500px;
+// //         }
+
+// //         &__image {
+// //             overflow: hidden;
+// //             max-height: 285px;
+// //             width: 100%;
+// //         }
+// //     }
+
+// //     .fmc-primary {
+// //         padding: 16px 16px 0 24px;
+
+// //         &__description-text {
+// //             min-height: 72px;
+// //             // color: $fds-color--gray3;
+// //         }
+
+// //         &__divider {
+// //             margin: 16px 0 14px 0;
+// //         }
+// //     }
+
+// //     .fmc-secondary {
+// //         & > div {
+// //             padding: 0 57px 0 0;
+// //         }
+// //     }
+// // }
