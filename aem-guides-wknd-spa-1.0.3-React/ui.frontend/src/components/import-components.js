@@ -24,3 +24,4 @@ import './Card/Card';
 import './TextImage/TextImage';
 import './Registration/Registration';
 import './TodaysHighlight/TodaysHighlight';
+import './TextImageMultifield/TextImageMultifield';

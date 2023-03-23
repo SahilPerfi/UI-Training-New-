@@ -1,0 +1,19 @@
+.textImage{
+    width: 100%;
+    display: flex;
+    &_text{
+        font-family: "FordAntenna";
+        font-size: 18px;
+    }
+    img{
+        float: right;
+        height: 220px;
+    }
+}
+.textImage_heading{
+    font-family: "FordAntenna";
+    color: #00095B;
+    font-size: 24px;
+    font-stretch: expanded;
+    margin-bottom: 10px;
+}
