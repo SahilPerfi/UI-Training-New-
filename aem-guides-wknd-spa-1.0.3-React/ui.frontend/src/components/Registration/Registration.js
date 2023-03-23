@@ -14,6 +14,8 @@ const Registration = (props) => {
     const submit = () => {
         alert("Registration Completed")
     }
+    let today = new Date(props.DOB);
+    let date=today.getDate() + "-"+ parseInt(today.getMonth()+1) +"-"+today.getFullYear();
   return (
     <>
     <img src={props.fileReference} alt="Registration Image"/>
@@ -23,7 +25,7 @@ const Registration = (props) => {
      <div className='Registration_field'>
         <div className='Registration_field_firstname'>First Name : <input value={props.firstName}/></div>
         <div className='Registration_field_lastname'>Last Name : <input value={props.lastName}/></div>
-        <div className='Registration_field_dob'>Date of Birth :<input value={props.DOB}/></div>
+        <div className='Registration_field_dob'>Date of Birth :<input value={date}/></div>
         <div className='Registration_field_suggestion'>Feedback : <textarea value={props.feedback}/></div>
         <button onClick={submit}>Submit</button>
      </div>
