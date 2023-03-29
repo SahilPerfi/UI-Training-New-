@@ -25,3 +25,4 @@ import './TextImage/TextImage';
 import './Registration/Registration';
 import './TodaysHighlight/TodaysHighlight';
 import './TextImageMultifield/TextImageMultifield';
+import './MultipleImages/MultipleImages';
