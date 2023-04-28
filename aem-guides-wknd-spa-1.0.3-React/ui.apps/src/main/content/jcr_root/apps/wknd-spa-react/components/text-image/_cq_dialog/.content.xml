@@ -41,10 +41,10 @@
                                                 name="./textTitle"/>
                                             <textfield
                                                 jcr:primaryType="nt:unstructured"
-                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
                                                 fieldDescription="The text to display on the component."
                                                 fieldLabel="Description"   
-                                                maxlength="400"
+                                                
                                                 required="{Boolean}true"
                                                 name="./text"/>
                                             <image
