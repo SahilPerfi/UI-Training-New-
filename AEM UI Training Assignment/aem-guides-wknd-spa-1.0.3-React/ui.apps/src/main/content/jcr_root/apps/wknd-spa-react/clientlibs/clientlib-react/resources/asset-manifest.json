@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/static/css/main.51d26ea8.chunk.css",
+    "main.js": "/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/static/js/main.5b33a491.chunk.js",
+    "main.js.map": "/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/static/js/main.5b33a491.chunk.js.map",
+    "runtime-main.js": "/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/static/js/runtime-main.22807818.js",
+    "runtime-main.js.map": "/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/static/js/runtime-main.22807818.js.map",
+    "static/js/2.03b711bb.chunk.js": "/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/static/js/2.03b711bb.chunk.js",
+    "static/js/2.03b711bb.chunk.js.map": "/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/static/js/2.03b711bb.chunk.js.map",
+    "index.html": "/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/index.html",
+    "precache-manifest.eb411dc00c211eebeede5166fdd154a3.js": "/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/precache-manifest.eb411dc00c211eebeede5166fdd154a3.js",
+    "service-worker.js": "/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/service-worker.js",
+    "static/css/main.51d26ea8.chunk.css.map": "/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/static/css/main.51d26ea8.chunk.css.map",
+    "static/js/2.03b711bb.chunk.js.LICENSE.txt": "/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/static/js/2.03b711bb.chunk.js.LICENSE.txt",
+    "static/media/icon-back.svg": "/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/static/media/icon-back.19a5bdab.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22807818.js",
+    "static/js/2.03b711bb.chunk.js",
+    "static/css/main.51d26ea8.chunk.css",
+    "static/js/main.5b33a491.chunk.js"
+  ]
+}
